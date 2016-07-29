@@ -9,11 +9,11 @@ import android.os.Bundle;
 public class TechInnova extends Activity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tech);
+        setContentView(R.layout.tec);
 
-}
+
+    }
 }

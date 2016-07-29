@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Tech Innova</string>
     <string name="newuser">Registration</string>
+    <string name="data_structure_algorithms"><![CDATA[Data Structure & Algorithms]]></string>
 
 </resources>
