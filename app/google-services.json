@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "191481857363",
+    "firebase_url": "https://techinnova-7c690.firebaseio.com",
+    "project_id": "techinnova-7c690",
+    "storage_bucket": "techinnova-7c690.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191481857363:android:a8a45166a562e9fb",
+        "android_client_info": {
+          "package_name": "com.example.samsung.techinnova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191481857363-05eei2v1tasj4ivktt9qr3kt2u41eaoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsC9mr1Ip9xp3LCJ3pWEOYaXZ1T3cd6-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

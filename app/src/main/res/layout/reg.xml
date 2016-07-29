@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@drawable/registration"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.79"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:gravity="center">
+
+
+        </LinearLayout>
+
+
+         <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65"
+            android:gravity="center">
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="0.16"
+                 android:gravity="center">
+                 <EditText
+
+
+                     android:background="@null"
+                     android:textColorHint="#FFFFFF"
+                     android:gravity="center"
+
+                     android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                     android:hint="Name"
+                     android:id="@+id/name"
+
+                     android:layout_gravity="center_horizontal" />
+
+
+                 </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="0.84"
+                 android:gravity="center">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.20"
+    android:gravity="center">
+
+    <Spinner
+
+        android:id="@+id/planets_spinner"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:spinnerMode="dropdown"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.80">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.22"
+        android:gravity="center">
+        <Spinner
+
+            android:id="@+id/year_spinner"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:spinnerMode="dropdown"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.78">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:gravity="center">
+
+            <EditText
+
+
+                android:background="@null"
+                android:textColorHint="#FFFFFF"
+                android:gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Section"
+                android:id="@+id/section"
+
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:layout_weight="0.65">
+                <EditText
+
+
+                    android:background="@null"
+                    android:textColorHint="#FFFFFF"
+                    android:gravity="center"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="Email Id"
+                    android:id="@+id/email"
+
+                    android:layout_gravity="center_horizontal" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:layout_weight="0.60">
+                <EditText
+
+
+                    android:background="@null"
+                    android:textColorHint="#FFFFFF"
+                    android:gravity="center"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="Contact No."
+                    android:id="@+id/contact"
+
+                    android:layout_gravity="center_horizontal" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+                 </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        >
+        <Button
+            android:id="@+id/register"
+
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:clickable="true"
+            android:text="Register Me !"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+</LinearLayout>

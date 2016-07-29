@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="purpel">#D19FE8</color>
+
+    <color name="colorAccento">#9ce92c1f</color>
+    <color
+        name="lightyellow">#FAA429</color>
+    <color name="Black">#000000</color>
+    <color name="ColorPrimary">#e62117</color>
+    <color name="ColorPrimaryDark">#c31c13</color>
+    <color name="tabsScrollColor">#8a140e</color>
+
+
+    <color name="etBorderColor">#999999</color>
+    <color name="light_grey">#a49f9f</color>
+    <color name="lightblack">#4d4949</color>
+    <color name="etColorHint">#666666</color>
+    <color name="etColor">#000000</color>
+    <color name="LIKEBLUE">#2196F3</color>
+
+    <color name="GREEN">#8dc73f</color>
+    <color name="ORANGE">#f25a29</color>
+
+</resources>
