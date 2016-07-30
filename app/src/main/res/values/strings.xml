@@ -2,5 +2,6 @@
     <string name="app_name">Tech Innova</string>
     <string name="newuser">Registration</string>
     <string name="data_structure_algorithms"><![CDATA[Data Structure & Algorithms]]></string>
+    <string name="experienced_in_c_c_java_data_structures_alogorithms_working_on_android_development_restful_web_services_database_mysql_oracle_couchdb_mongodb"><![CDATA[Experienced in C/C++ , Java , Data Structures & Alogorithms , Working on Android development ,Restful Web services. Database-mysql ,oracle ,couchDb & mongoDb]]></string>
 
 </resources>

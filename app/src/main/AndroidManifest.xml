@@ -47,6 +47,23 @@
             android:label="Notifications"
          >
         </activity>
+
+        <activity
+            android:name=".Mentors"
+            android:label="Mentors"
+            >
+        </activity>
+
+        <activity
+            android:name=".DataStructure"
+            android:label="Data Structure And Algorithms"
+            >
+        </activity>
+        <activity
+            android:name=".SoftwareDev"
+            android:label="Software Development"
+            >
+        </activity>
     </application>
 
 </manifest>
