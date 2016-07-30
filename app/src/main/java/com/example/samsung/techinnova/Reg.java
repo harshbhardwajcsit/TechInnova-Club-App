@@ -1,7 +1,6 @@
 package com.example.samsung.techinnova;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -116,26 +115,6 @@ public class Reg extends Activity implements AdapterView.OnItemSelectedListener,
                     ref.child("students").child(Email_Id).setValue(student);
                     Toast.makeText(getBaseContext(), "Successfully Registered ! please login", Toast.LENGTH_LONG).show();
 
-                    //progress dialog
-                    final ProgressDialog progressDialog = new ProgressDialog(Reg.this);
-                    progressDialog.setMessage("Please wait data is Processing");
-                    progressDialog.show();
-
-                    new Thread(){
-                        @Override
-                        public void run() {
-                            super.run();
-                            try {
-                                Thread.sleep(2000);
-                                if (progressDialog.isShowing())
-                                    progressDialog.dismiss();
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
-                        }
-                    }.start();
-
-                    Toast.makeText(getBaseContext(), "Successfully Registered ! please login", Toast.LENGTH_LONG).show();
                     Intent intent=new Intent(Reg.this,Login.class);
                     startActivity(intent);
 

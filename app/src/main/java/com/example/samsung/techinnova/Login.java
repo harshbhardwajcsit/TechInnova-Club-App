@@ -1,7 +1,6 @@
 package com.example.samsung.techinnova;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -43,26 +42,6 @@ public class Login extends Activity implements View.OnClickListener {
                 if(E.isEmpty()){ loginemail.setError("Enter Registered Email Id");  }
 
             else{
-                    //progress dialog for data sync
-
-                    final ProgressDialog progressDialog = new ProgressDialog(Login.this);
-
-                    progressDialog.show();
-
-                    new Thread(){
-                        @Override
-                        public void run() {
-                            super.run();
-                            try {
-                                Thread.sleep(3000);
-                                if (progressDialog.isShowing())
-                                    progressDialog.dismiss();
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
-                        }
-                    }.start();
-
 
                     loginemail.setError(null);
                 ref1.child(E).addListenerForSingleValueEvent(new ValueEventListener() {
