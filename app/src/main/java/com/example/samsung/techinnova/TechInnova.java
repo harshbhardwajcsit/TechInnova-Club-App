@@ -43,7 +43,7 @@ public class TechInnova extends Activity implements View.OnClickListener {
                 break;
 
             case R.id.webdesign:
-                startActivity(new Intent( TechInnova.this,LiveNotification.class ));
+                startActivity(new Intent( TechInnova.this,WebDev.class ));
                 break;
 
 

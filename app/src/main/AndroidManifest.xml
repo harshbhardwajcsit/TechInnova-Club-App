@@ -64,6 +64,12 @@
             android:label="Software Development"
             >
         </activity>
+
+        <activity
+            android:name=".WebDev"
+            android:label="Web Development"
+            >
+        </activity>
     </application>
 
 </manifest>
